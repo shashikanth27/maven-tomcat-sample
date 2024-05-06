@@ -97,5 +97,16 @@
     </dependency>
   </dependencies>
 
+<distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://3.19.67.210:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://3.19.67.210:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+ </distributionManagement>
+
 </project>
 
