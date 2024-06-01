@@ -17,7 +17,7 @@
         
         stage('tests') {
             steps {
-                 sh " echo "test success" "
+                 sh "echo test success"
             }
         }
         
